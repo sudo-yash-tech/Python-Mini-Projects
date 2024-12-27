@@ -8,7 +8,7 @@ if __name__ == '__main__':
         
         user_input = input("Enter what you want me to say: ").lower()
         if user_input in ["q", "quit"]:
-            engine.say("Thank you for talking")
+            engine.say("Thank you for talking") #break the program
             engine.runAndWait()
             break
         engine.say(user_input)
