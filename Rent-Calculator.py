@@ -18,4 +18,4 @@ total_electricity = electricity_spend * charge_per_unit
 
 output = (rent + food + total_electricity) // persons
 
-print(f"Each person will pay : ₹{output}")
+print(f"Each person will pay : ₹{output}") 
