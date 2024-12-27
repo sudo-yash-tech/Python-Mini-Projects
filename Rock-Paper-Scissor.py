@@ -34,17 +34,17 @@ print(f"User Choice : {user_choice} \t Computer Choice : {computer_choice}")
 if user_choice == computer_choice:
     print("Both Chooses same : Match Tie")
 elif user_choice == "Rock":
-    if computer_choice == "Paper":
+    if computer_choice == "Paper": #Paper Condition
         print("Paper will cover the Rock : Computer Win!!!")
     else:
         print("Rock will crash the Scissor : You Win!!!")
 elif user_choice == "Paper":
-    if computer_choice == "Scissor":
+    if computer_choice == "Scissor": #Scissor Condition
         print("Scissor will cut the Paper : Computer Win!!!")
     else:
         print("Paper will cover the Rock : You Win!!!")
 elif user_choice == "Scissor":
-    if computer_choice == "Rock":
+    if computer_choice == "Rock": #Rock Condition
         print("Rock will crash the Scissor : Computer Win!!!")
     else:
         print("Scissor will cut the Paper : You Win!!!")
